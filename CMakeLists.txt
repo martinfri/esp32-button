@@ -1,4 +1,4 @@
-if(IDF_VERSION_MAJOR GREATER_EQUAL 4)
+if(IDF_VERSION_MAJOR GREATER_EQUAL 4 OR IDF_VERSION_MAJOR GREATER_EQUAL 5)
     idf_component_register(SRC_DIRS src
         REQUIRES log driver
         INCLUDE_DIRS include)
